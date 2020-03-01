@@ -57,7 +57,8 @@ const Home = () => (
       </a>
     </footer>
 
-    <style jsx>{`
+    <style jsx>
+      {`
       .container {
         min-height: 100vh;
         padding: 0 0.5rem;
@@ -182,21 +183,8 @@ const Home = () => (
           flex-direction: column;
         }
       }
-    `}</style>
-
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
+    `}
+    </style>
   </div>
 )
 

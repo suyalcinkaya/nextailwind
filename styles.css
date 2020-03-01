@@ -1,0 +1,9 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+body {
+  @apply antialiased m-0 p-0;
+}
