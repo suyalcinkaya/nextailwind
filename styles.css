@@ -7,3 +7,27 @@
 body {
   @apply antialiased m-0 p-0;
 }
+
+.enter {
+  @apply transition ease-out duration-100;
+}
+
+.enterActive {
+  @apply transform opacity-100 scale-100;
+}
+
+.leave {
+  @apply transition ease-in duration-75;
+}
+
+.leaveActive {
+  @apply transform opacity-0 scale-95;
+}
+
+.appear {
+  @apply transition ease-out duration-100;
+}
+
+.appearActive {
+  @apply transform opacity-100 scale-100;
+}

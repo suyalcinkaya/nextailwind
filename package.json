@@ -8,14 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "babel-plugin-macros": "^2.8.0",
     "next": "9.2.2",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "16.13.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "autoprefixer": "^9.7.4",
     "cssnano": "^4.1.10",
+    "tailwind.macro": "^1.0.0-alpha.10",
     "tailwindcss": "^1.2.0"
   }
 }
