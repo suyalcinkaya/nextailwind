@@ -1,8 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="public/nextjs.svg" alt="TailwindCSS Logo" width="180" />
+  <img src="public/tailwindcss.svg" alt="TailwindCSS Logo" width="80" style="margin-left: 2rem" />
+</div>
+
+<br>
+<br>
+
+This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) starter kit. It's fully optimized for the utmost performance.
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+- [PurgeCSS](https://purgecss.com/)
+- [cssnano](https://cssnano.co/)
+- Deployed with [Vercel](https://vercel.com/)
 
 ## Getting Started
 
-First, run the development server:
+First, clone—or download— the project to install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -12,19 +35,22 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To build a production bundle, run:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome!
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+1.  Fork it.
+2.  Create your feature branch: `git checkout -b my-new-feature`.
+3.  Commit your changes: `git commit -am 'Adds some feature'`.
+4.  Push to the branch: `git push origin my-new-feature`.
+5.  Submit a pull request.
 
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Or open [an issue](https://github.com/suyalcinkaya/nextailwind/issues).
