@@ -1,6 +1,5 @@
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img src="public/nextjs.svg" alt="TailwindCSS Logo" width="180" />
-  <img src="public/tailwindcss.svg" alt="TailwindCSS Logo" width="80" style="margin-left: 2rem" />
+<div align="center">
+  <img src="nextailwind.png" alt="Next.js + Tailwind CSS" width="60%" />
 </div>
 
 <br>
