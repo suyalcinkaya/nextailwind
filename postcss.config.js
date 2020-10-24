@@ -1,20 +1,24 @@
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    ...(process.env.NODE_ENV === 'production'
-      ? {
-        '@fullhuman/postcss-purgecss': {
-          content: ['./components/**/*.js', './pages/**/*.js'],
-          defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-        },
-        'cssnano': {
-          'preset': [
-            'default',
-            { 'discardComments': { 'removeAll': true } }
-          ],
-        }
-      }
-      : {})
+const purgecss = [
+  '@fullhuman/postcss-purgecss',
+  {
+    content: ['src/components/**/*.js', 'src/pages/**/*.js'],
+    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || []
   }
-};
+]
+
+const cssnano = [
+  'cssnano',
+  {
+    preset: 'advanced',
+    discardComments: { removeAll: true }
+  }
+]
+
+module.exports = {
+  plugins: [
+    'postcss-import',
+    'tailwindcss',
+    'autoprefixer',
+    ...(process.env.NODE_ENV === 'production' ? [purgecss, cssnano] : [])
+  ]
+}

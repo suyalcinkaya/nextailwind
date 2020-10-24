@@ -1,6 +1,6 @@
 {
   "name": "nextailwind",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,14 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.2.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "autoprefixer": "^9.7.4",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
-    "tailwindcss": "^1.2.0"
+    "cssnano-preset-advanced": "^4.0.7",
+    "next": "^9.5.5",
+    "postcss-import": "^12.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^1.9.6"
   }
 }
