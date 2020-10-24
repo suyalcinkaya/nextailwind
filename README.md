@@ -1,9 +1,6 @@
 <div align="center">
-  <img src="nextailwind.png" alt="Next.js + Tailwind CSS" width="60%" />
+  <img src="nextailwind.png" alt="Next.js + Tailwind CSS" width="50%" />
 </div>
-
-<br>
-<br>
 
 This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) starter kit. It's fully optimized for the utmost performance.
 
