@@ -12,11 +12,15 @@ This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.
 - Deployed with [Vercel](https://vercel.com/)
 
 <br>
+<hr />
+<br>
 
 <div align="center">
   <img src="performance.png" alt="Next.js + Tailwind CSS" width="100%" />
 </div>
 
+<br>
+<hr />
 <br>
 
 ## Getting Started
