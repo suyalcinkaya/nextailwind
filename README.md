@@ -11,6 +11,14 @@ This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.
 - [cssnano](https://cssnano.co/)
 - Deployed with [Vercel](https://vercel.com/)
 
+<br>
+
+<div align="center">
+  <img src="performance.png" alt="Next.js + Tailwind CSS" width="100%" />
+</div>
+
+<br>
+
 ## Getting Started
 
 First, clone—or download— the project to install the dependencies:
