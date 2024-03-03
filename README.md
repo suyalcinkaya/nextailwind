@@ -2,7 +2,8 @@
   <img src="nextailwind.png" alt="Next.js + Tailwind CSS" width="50%" />
 </div>
 
-This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) starter kit. It's fully optimized for the utmost performance.
+This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) starter kit. It's fully optimized
+for the utmost performance.
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -28,17 +29,13 @@ This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.
 First, clone—or download— the project to install the dependencies:
 
 ```bash
-npm install
-# or
-yarn
+bun install
 ```
 
 Then, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -46,9 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 To build a production bundle, run:
 
 ```bash
-npm run build
-# or
-yarn build
+bun build
 ```
 
 ## Contributing

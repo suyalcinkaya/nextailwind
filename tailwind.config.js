@@ -1,11 +1,23 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
-  purge: {
-    mode: 'all',
-    content: ['./src/**/*.js']
-  },
+  content: ['src/app/**/*.{js,ts,jsx,tsx,mdx,json}', 'src/components/**/*.{js,ts,jsx,tsx,mdx,json}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)', ...defaultTheme.fontFamily.sans]
+      },
+      height: {
+        'dynamic-screen': '100dvh'
+      },
+      minHeight: {
+        'dynamic-screen': '100dvh'
+      }
+    }
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  future: {
+    hoverOnlyWhenSupported: true
+  }
 }
